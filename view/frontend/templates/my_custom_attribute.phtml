@@ -1,0 +1,7 @@
+<?php /* @var $block \Vendor\ModuleName\Block\MyCustomAttribute */ ?>
+<?php $customAttribute = $block->getMyCustomAttribute(); ?>
+<?php if ($customAttribute) : ?>
+    <div class="my-custom-attribute">
+        <?= $block->escapeHtml($customAttribute) ?>
+    </div>
+<?php endif; ?>
